@@ -1,7 +1,37 @@
 /* Your styles for the mobile/small screen view of the quiz go here*/
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 
+*{
+	font-family: 'Shippori Antique B1', sans-serif;
+}
+body {
+    background: url(https://s.hdnux.com/photos/01/16/55/10/20632088/3/rawImage.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+	text-align: center;
+	margin: 30px;
+}
+.question-box{
+	padding: 0.5rem;
+    border-top: 3px solid #1779ba;
+    -webkit-box-shadow: 0 2px 10px rgb(0 0 0 / 17%);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 17%);
+    background-color: #fefefe;
+	margin-top: 30px;
+}
 
+#theeModal {
+    color: red;
+}
 
 @media all and (min-width: 600px){
 	/* Your styles for the desktop view go here */
+	.container{
+		max-width: 750px;
+		margin: auto;
+	}
+	.question-box{
+		padding: 1.5rem;
+	}
 }
